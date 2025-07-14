@@ -2,6 +2,7 @@
 import './App.css'
 import Login,{Logout} from "./Usercomponent"
 import Function from './Functions'
+import { Counter } from './Counter'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   {/* <h1>Pawan</h1> */}
   {/* <Login/> */}
   {/* <Logout/> */}
-  <Function/>
+  {/* <Function/> */}
+  <Counter/>
   </>
   )
 }
