@@ -4,6 +4,7 @@ import Login,{Logout} from "./Usercomponent"
 import Function from './Functions'
 import { Counter } from './Counter'
 import { Render } from './ConditionalRendering'
+import { MultipleRender } from './MultipleConditionRendering'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
   {/* <Logout/> */}
   {/* <Function/> */}
   {/* <Counter/> */}
-  <Render/>
+  {/* <Render/> */}
+  <MultipleRender/>
   </>
   )
 }
