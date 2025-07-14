@@ -3,6 +3,7 @@ import './App.css'
 import Login,{Logout} from "./Usercomponent"
 import Function from './Functions'
 import { Counter } from './Counter'
+import { Render } from './ConditionalRendering'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
   {/* <Login/> */}
   {/* <Logout/> */}
   {/* <Function/> */}
-  <Counter/>
+  {/* <Counter/> */}
+  <Render/>
   </>
   )
 }
