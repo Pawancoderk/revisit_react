@@ -11,6 +11,7 @@ import { Wrapper } from './Wrapper'
 import { Input } from './Input'
 import { ContolledComponent } from './ConrolledComponent'
 import { Checkbox } from './Checkbox'
+import { Radio } from './Radio'
 
 
 function App() {
@@ -49,7 +50,8 @@ function App() {
 
   {/* <Input/> */}
   {/* <ContolledComponent/> */}
-  <Checkbox/>
+  {/* <Checkbox/> */}
+  <Radio/>
   </>
   )
 }
