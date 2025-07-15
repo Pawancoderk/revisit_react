@@ -9,6 +9,7 @@ import { User } from './User'
 import { Default } from './Defaultprop'
 import { Wrapper } from './Wrapper'
 import { Input } from './Input'
+import { ContolledComponent } from './ConrolledComponent'
 
 
 function App() {
@@ -45,7 +46,8 @@ function App() {
     <h1>Second wrapper</h1>
   </Wrapper> */}
 
-  <Input/>
+  {/* <Input/> */}
+  <ContolledComponent/>
   </>
   )
 }
