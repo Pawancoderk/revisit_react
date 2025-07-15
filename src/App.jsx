@@ -8,6 +8,7 @@ import { MultipleRender } from './MultipleConditionRendering'
 import { User } from './User'
 import { Default } from './Defaultprop'
 import { Wrapper } from './Wrapper'
+import { Input } from './Input'
 
 
 function App() {
@@ -36,9 +37,15 @@ function App() {
   {/* <User  Userobj = {Userobj2}/> */}
   {/* <Default name= "Pawan"/> */}
   {/* <Default/> */}
-  <Wrapper >
+  {/* <Wrapper color="blue" >
     <h1>Wrapper</h1>
-  </Wrapper>
+  </Wrapper> */}
+
+    {/* <Wrapper  >
+    <h1>Second wrapper</h1>
+  </Wrapper> */}
+
+  <Input/>
   </>
   )
 }

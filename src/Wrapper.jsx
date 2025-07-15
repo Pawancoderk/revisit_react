@@ -1,7 +1,7 @@
-export function Wrapper({children}){
+export function Wrapper({children,color ="green"}){
     return (
         <>
-        <div style={{color:"purple",border:"5px solid yellow "}}>
+        <div style={{color:color,border:"5px solid yellow ",margin:"50px"}}>
            {children}
         </div>
         </>
