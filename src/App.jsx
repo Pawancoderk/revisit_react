@@ -10,6 +10,7 @@ import { Default } from './Defaultprop'
 import { Wrapper } from './Wrapper'
 import { Input } from './Input'
 import { ContolledComponent } from './ConrolledComponent'
+import { Checkbox } from './Checkbox'
 
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
   </Wrapper> */}
 
   {/* <Input/> */}
-  <ContolledComponent/>
+  {/* <ContolledComponent/> */}
+  <Checkbox/>
   </>
   )
 }
