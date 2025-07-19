@@ -12,6 +12,7 @@ import { Input } from './Input'
 import { ContolledComponent } from './ConrolledComponent'
 import { Checkbox } from './Checkbox'
 import { Radio } from './Radio'
+import { Array } from './Array'
 
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
   {/* <Input/> */}
   {/* <ContolledComponent/> */}
   {/* <Checkbox/> */}
-  <Radio/>
+  {/* <Radio/> */}
+  <Array/>
   </>
   )
 }
