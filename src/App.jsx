@@ -13,6 +13,7 @@ import { ContolledComponent } from './ConrolledComponent'
 import { Checkbox } from './Checkbox'
 import { Radio } from './Radio'
 import { Array } from './Array'
+import { ReuseComponent } from './ReuseComponent'
 
 
 function App() {
@@ -53,7 +54,8 @@ function App() {
   {/* <ContolledComponent/> */}
   {/* <Checkbox/> */}
   {/* <Radio/> */}
-  <Array/>
+  {/* <Array/> */}
+  <ReuseComponent/>
   </>
   )
 }

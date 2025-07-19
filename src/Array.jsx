@@ -42,7 +42,7 @@ export function Array() {
 
         <tbody>
           {userData.map((user) => (
-            <tr>
+            <tr key={user.id}>
               <td>{user.name}</td>
               <td>{user.age}</td>
               <td>{user.email}</td>
