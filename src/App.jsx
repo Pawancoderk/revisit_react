@@ -14,6 +14,7 @@ import { Checkbox } from './Checkbox'
 import { Radio } from './Radio'
 import { Array } from './Array'
 import { ReuseComponent } from './ReuseComponent'
+import { Option } from './Option'
 
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
   {/* <Checkbox/> */}
   {/* <Radio/> */}
   {/* <Array/> */}
-  <ReuseComponent/>
+  {/* <ReuseComponent/> */}
+  <Option/>
   </>
   )
 }
