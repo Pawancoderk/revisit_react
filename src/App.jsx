@@ -18,7 +18,8 @@ import { Option } from './Option'
 import { Array_Nested_loop } from './Arrat_Nested_loop'
 import { Effect } from './Effect'
 import { Effectprop } from './Effect_prop'
-import { useState } from 'react'
+import { use, useState } from 'react'
+import { Life_cycle } from './Life_cycle_method'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
   // }
 
   const [count, setCount] = useState(0)
+  const [display, setDisplay] = useState(true)
   return (
   <>
   {/* <h1>Pawan</h1> */}
@@ -66,8 +68,14 @@ function App() {
   {/* <Option/> */}
   {/* <Array_Nested_loop/> */}
   {/* <Effect/> */}
-  <Effectprop count={count}/>
-  <button onClick={()=>setCount(count+1)}>Click</button>
+  {/* <Effectprop count={count}/> */}
+  {/* <button onClick={()=>setCount(count+1)}>Click</button> */}
+  
+   {
+    display ? <Life_cycle count={count} />  : null
+   }  
+    <button onClick={()=>setCount(count+1)}>Click</button>
+   <button onClick={()=>setDisplay(!display)}>Toggle</button>
   </>
   )
 }
