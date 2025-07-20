@@ -16,6 +16,7 @@ import { Array } from './Array'
 import { ReuseComponent } from './ReuseComponent'
 import { Option } from './Option'
 import { Array_Nested_loop } from './Arrat_Nested_loop'
+import { Effect } from './Effect'
 
 
 function App() {
@@ -59,7 +60,8 @@ function App() {
   {/* <Array/> */}
   {/* <ReuseComponent/> */}
   {/* <Option/> */}
-  <Array_Nested_loop/>
+  {/* <Array_Nested_loop/> */}
+  <Effect/>
   </>
   )
 }

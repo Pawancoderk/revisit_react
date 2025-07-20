@@ -1,3 +1,5 @@
+import { Collage } from "./College";
+
 export function Array_Nested_loop() {
   const collegeData = [
     {
@@ -33,13 +35,11 @@ export function Array_Nested_loop() {
   ];
   return (
     <div>
-      {
-        collegeData.map((collage)=>(
-          <div>
-            <h2>Name: {collage.Name}</h2>
-          </div>
-        ))
-      }
+      {collegeData.map((collage, index) => (
+        <div key={index}>
+         <Collage collage= {collage}/>
+        </div>
+      ))}
     </div>
   );
 }
