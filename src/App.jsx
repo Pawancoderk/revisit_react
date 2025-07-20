@@ -17,21 +17,25 @@ import { ReuseComponent } from './ReuseComponent'
 import { Option } from './Option'
 import { Array_Nested_loop } from './Arrat_Nested_loop'
 import { Effect } from './Effect'
+import { Effectprop } from './Effect_prop'
+import { useState } from 'react'
 
 
 function App() {
   // let name = "Pawan" 
-  let Userobj = {
-    name: "Pawan",
-    age: 24,
-    email: "Pawan@gmail.com"
-  }
+  // let Userobj = {
+  //   name: "Pawan",
+  //   age: 24,
+  //   email: "Pawan@gmail.com"
+  // }
 
-  let Userobj2 = {
-    name: "Karan",
-    age: 25,
-    email: "Karan@gmail.com"
-  }
+  // let Userobj2 = {
+  //   name: "Karan",
+  //   age: 25,
+  //   email: "Karan@gmail.com"
+  // }
+
+  const [count, setCount] = useState(0)
   return (
   <>
   {/* <h1>Pawan</h1> */}
@@ -61,7 +65,9 @@ function App() {
   {/* <ReuseComponent/> */}
   {/* <Option/> */}
   {/* <Array_Nested_loop/> */}
-  <Effect/>
+  {/* <Effect/> */}
+  <Effectprop count={count}/>
+  <button onClick={()=>setCount(count+1)}>Click</button>
   </>
   )
 }
